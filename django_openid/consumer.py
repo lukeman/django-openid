@@ -18,7 +18,7 @@ from openid.yadis import xri
 from django_openid.models import DjangoOpenIDStore
 from django_openid.utils import OpenID, Router
 from django_openid import signed
-from django_openid.response import TemplateResponse
+from django.template.response import TemplateResponse
 
 class SessionPersist(object):
     def get_user_session(self, request):

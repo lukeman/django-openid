@@ -5,7 +5,7 @@ from openid.server.server import Server
 from openid.extensions import sreg
 from django_openid.models import DjangoOpenIDStore
 from django_openid import signed
-from django_openid.response import TemplateResponse
+from django.template.response import TemplateResponse
 
 class Provider(object):
     """
